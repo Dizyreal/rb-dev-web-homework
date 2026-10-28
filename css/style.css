@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0e0f13;
+  color: #eceef2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 32px 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Arial Black", Arial, sans-serif;
+  line-height: 1.15;
+  margin: 0 0 16px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #d90f1c;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 0 0 16px;
+}
+
+a {
+  color: #ff6b61;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #ffd60a;
+  outline-offset: 3px;
+}
+
+.site-header {
+  padding: 20px 0;
+  border-bottom: 1px solid #2e3340;
+}
+
+.brand {
+  margin: 0;
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 22px;
+}
+
+.brand-role {
+  margin: 0 0 12px;
+  color: #a7adba;
+}
+
+.brand a {
+  color: #eceef2;
+  text-decoration: none;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+}
+
+.nav-list a {
+  display: block;
+  padding: 8px 14px;
+  border: 1px solid #2e3340;
+  border-radius: 8px;
+  color: #eceef2;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  background: #d90f1c;
+  border-color: #d90f1c;
+  color: #ffffff;
+}
+
+.hero {
+  padding: 48px 0 40px;
+}
+
+.hero .photo {
+  width: 100%;
+  max-width: 220px;
+  margin-bottom: 24px;
+  border: 3px solid #d90f1c;
+  border-radius: 12px;
+}
+
+.hero .lead {
+  font-size: 18px;
+  color: #a7adba;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #d90f1c;
+  border: 2px solid #d90f1c;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #b00010;
+}
+
+.skills {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.skills li {
+  margin-bottom: 6px;
+}
+
+.project-card,
+.service {
+  margin-bottom: 24px;
+  padding: 20px;
+  background: #181b22;
+  border: 1px solid #2e3340;
+  border-radius: 8px;
+}
+
+.project-card img {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+.work-type {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 2px 10px;
+  border: 1px solid #d90f1c;
+  border-radius: 999px;
+  color: #ff6b61;
+  font-size: 14px;
+}
+
+.service ul {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.contact-mail {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-form {
+  margin-top: 24px;
+  padding: 20px;
+  background: #181b22;
+  border: 1px solid #2e3340;
+  border-radius: 8px;
+}
+
+.form-note {
+  margin: 16px 0 0;
+  color: #a7adba;
+  font-size: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 16px;
+  padding: 10px;
+  background: #0e0f13;
+  border: 1px solid #5b6275;
+  border-radius: 6px;
+  color: #eceef2;
+  font: inherit;
+}
+
+input:hover,
+textarea:hover {
+  border-color: #ffffff;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #d90f1c;
+  border: 2px solid #d90f1c;
+  border-radius: 8px;
+  color: #ffffff;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #b00010;
+}
+
+.project-info {
+  margin: 0 0 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.project-info li {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  padding: 4px 12px;
+  background: #181b22;
+  border: 1px solid #2e3340;
+  border-radius: 999px;
+}
+
+.shot {
+  margin: 0 0 24px;
+}
+
+.shot img {
+  width: 100%;
+  border: 1px solid #2e3340;
+  border-radius: 8px;
+}
+
+.shot figcaption {
+  margin-top: 8px;
+  color: #a7adba;
+  font-size: 15px;
+}
+
+.site-footer {
+  margin-top: 32px;
+  padding: 24px 0;
+  border-top: 1px solid #2e3340;
+  color: #a7adba;
+}
+
+.site-footer p {
+  margin: 0 0 8px;
+}

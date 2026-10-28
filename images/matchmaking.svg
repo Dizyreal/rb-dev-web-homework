@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 432" font-family="Arial, sans-serif">
+<rect width="768" height="432" fill="#14161c"/>
+<text x="40" y="60" fill="#eceef2" font-size="26" font-weight="bold">Подбор игроков</text>
+<text x="40" y="88" fill="#9aa0ad" font-size="16">Схема системы: очередь, рейтинг, матч</text>
+<rect x="40" y="130" width="180" height="200" rx="10" fill="#1e222b" stroke="#3a4050"/>
+<text x="130" y="160" fill="#eceef2" font-size="18" text-anchor="middle">Очередь</text>
+<circle cx="90" cy="205" r="14" fill="#ff3b30"/><circle cx="130" cy="205" r="14" fill="#ff3b30"/><circle cx="170" cy="205" r="14" fill="#ff3b30"/>
+<circle cx="90" cy="250" r="14" fill="#ff3b30"/><circle cx="130" cy="250" r="14" fill="#ff3b30"/><circle cx="170" cy="250" r="14" fill="#ff3b30"/>
+<text x="130" y="310" fill="#9aa0ad" font-size="14" text-anchor="middle">игроки ждут</text>
+<path d="M230 230 H290" stroke="#eceef2" stroke-width="3"/><path d="M280 220 L292 230 L280 240" fill="none" stroke="#eceef2" stroke-width="3"/>
+<rect x="300" y="130" width="180" height="200" rx="10" fill="#1e222b" stroke="#ff3b30" stroke-width="2"/>
+<text x="390" y="160" fill="#eceef2" font-size="18" text-anchor="middle">Рейтинг</text>
+<text x="390" y="215" fill="#eceef2" font-size="15" text-anchor="middle">сравнение игроков</text>
+<text x="390" y="245" fill="#eceef2" font-size="15" text-anchor="middle">настройки режима</text>
+<text x="390" y="310" fill="#9aa0ad" font-size="14" text-anchor="middle">параметры очереди</text>
+<path d="M490 230 H550" stroke="#eceef2" stroke-width="3"/><path d="M540 220 L552 230 L540 240" fill="none" stroke="#eceef2" stroke-width="3"/>
+<rect x="560" y="130" width="168" height="200" rx="10" fill="#1e222b" stroke="#3a4050"/>
+<text x="644" y="160" fill="#eceef2" font-size="18" text-anchor="middle">Матч</text>
+<circle cx="610" cy="215" r="14" fill="#4da3ff"/><circle cx="610" cy="260" r="14" fill="#4da3ff"/>
+<circle cx="678" cy="215" r="14" fill="#7dff6a"/><circle cx="678" cy="260" r="14" fill="#7dff6a"/>
+<text x="644" y="310" fill="#9aa0ad" font-size="14" text-anchor="middle">две команды</text>
+</svg>

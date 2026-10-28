@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 432" font-family="Arial, sans-serif">
+<rect width="768" height="432" fill="#14161c"/>
+<text x="40" y="60" fill="#eceef2" font-size="26" font-weight="bold">Приглашения с данными</text>
+<text x="40" y="88" fill="#9aa0ad" font-size="16">Схема: от отправителя до получателя</text>
+<rect x="40" y="150" width="170" height="150" rx="10" fill="#1e222b" stroke="#3a4050"/>
+<text x="125" y="195" fill="#eceef2" font-size="18" text-anchor="middle">Игрок</text>
+<text x="125" y="225" fill="#9aa0ad" font-size="14" text-anchor="middle">отправляет</text>
+<text x="125" y="248" fill="#9aa0ad" font-size="14" text-anchor="middle">приглашение</text>
+<path d="M215 225 H275" stroke="#eceef2" stroke-width="3"/><path d="M265 215 L277 225 L265 235" fill="none" stroke="#eceef2" stroke-width="3"/>
+<rect x="285" y="150" width="200" height="150" rx="10" fill="#1e222b" stroke="#ff3b30" stroke-width="2"/>
+<text x="385" y="195" fill="#eceef2" font-size="18" text-anchor="middle">Сообщение</text>
+<text x="385" y="225" fill="#eceef2" font-size="14" text-anchor="middle">режим, карта, данные</text>
+<text x="385" y="248" fill="#9aa0ad" font-size="14" text-anchor="middle">укладываемся в лимит</text>
+<text x="385" y="270" fill="#9aa0ad" font-size="14" text-anchor="middle">размера сообщения</text>
+<path d="M490 225 H550" stroke="#eceef2" stroke-width="3"/><path d="M540 215 L552 225 L540 235" fill="none" stroke="#eceef2" stroke-width="3"/>
+<rect x="560" y="150" width="168" height="150" rx="10" fill="#1e222b" stroke="#3a4050"/>
+<text x="644" y="195" fill="#eceef2" font-size="18" text-anchor="middle">Получатель</text>
+<rect x="580" y="215" width="128" height="62" rx="6" fill="#2a2f3a"/>
+<text x="644" y="241" fill="#eceef2" font-size="13" text-anchor="middle">Вас зовут в игру</text>
+<text x="644" y="262" fill="#7dff6a" font-size="13" text-anchor="middle">данные видны сразу</text>
+</svg>

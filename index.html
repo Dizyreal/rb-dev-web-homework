@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дмитрий - разработчик игр в Roblox | Портфолио</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container">
+      <p class="brand">Дмитрий</p>
+      <p class="brand-role">Разработчик игр в Roblox</p>
+      <nav aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a href="#about">О себе</a></li>
+          <li><a href="#works">Работы</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <img class="photo" src="images/photo.jpg" width="354" height="472" alt="Фото автора">
+        <h1>Дмитрий - программист и дизайнер систем для игр в Roblox</h1>
+        <p class="lead">Пишу код и придумываю игровые системы: подбор игроков, приглашения, интерфейсы. Помогаю небольшим командам, которые делают игры на Roblox, чтобы механики работали стабильно, а игроки не замечали сложной «кухни» под капотом.</p>
+        <a class="button" href="#works">Посмотреть работы</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>О себе</h2>
+        <p>Я учусь на IT-направлении и параллельно делаю игры. В команде Tower Siege Simulator для Roblox, я был программистом и проектировал игровые системы: решал, из каких частей состоит механика и как эти части связаны между собой.</p>
+        <p>Мне нравится превращать идею в работающую систему и доводить её до удобного вида для игрока. Сначала я выясняю, что должно происходить в игре, потом разбиваю задачу на небольшие понятные части и проверяю каждую отдельно. Так проще находить ошибки и добавлять новые возможности.</p>
+        <h3>Что я умею</h3>
+        <ul class="skills">
+          <li>Программирование на Luau в Roblox Studio</li>
+          <li>Интерфейсы на React-lua</li>
+          <li>Проектирование игровых систем и режимов</li>
+          <li>Обмен данными между серверами через MessagingService & MemoryStoreService</li>
+          <li>Вёрстка сайтов на HTML и CSS</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="works">
+      <div class="container">
+        <h2>Мои работы</h2>
+
+        <article class="project-card">
+          <img src="images/tsgreen.jpg" width="766" height="432" alt="Рендер игры Tower Siege Simulator: отряд роботов-защитников с зелёным свечением в тёмном туннеле">
+          <h3>Tower Siege Simulator</h3>
+          <p class="work-type">Игра на Roblox</p>
+          <p>Tower defense, в котором игроки расставляют юнитов и отражают волны врагов. Над игрой работала небольшая команда студии Radixant Interactive. Я писал код и проектировал игровые системы.</p>
+          <a href="project.html">Подробнее о проекте</a>
+        </article>
+
+        <article class="project-card">
+          <img src="images/matchmaking.svg" width="768" height="432" alt="Схема системы подбора игроков: очередь, сравнение по рейтингу, матч из двух команд">
+          <h3>Система подбора игроков</h3>
+          <p class="work-type">Игровая система</p>
+          <p>Матчмейкинг для Roblox-игры: игроки встают в очередь, система учитывает рейтинг и собирает матч. Для каждого режима есть свои настройки, поэтому правила подбора легко менять.</p>
+        </article>
+
+        <article class="project-card">
+          <img src="images/playerstab.svg" width="768" height="432" alt="Схема интерфейса: список игроков, раскрытая строка с кнопками действий и окно профиля">
+          <h3>Вкладка игроков</h3>
+          <p class="work-type">Интерфейс</p>
+          <p>Список игроков в стиле популярных tower defense, написанный на React-lua. Он открывается клавишей Tab, строка игрока раскрывается по клику и показывает кнопки действий, а профиль открывается в отдельном окне.</p>
+        </article>
+
+        <article class="project-card">
+          <img src="images/invites.svg" width="768" height="432" alt="Схема системы приглашений: игрок отправляет сообщение с данными, получатель сразу видит их">
+          <h3>Приглашения с данными</h3>
+          <p class="work-type">Игровая система</p>
+          <p>Расширил систему приглашений: вместе с приглашением можно передать свои данные, и приглашённый игрок увидит их у себя на экране. Данные пришлось уложить в ограничение на размер сообщения.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2>Услуги</h2>
+
+        <article class="service">
+          <h3>Программирование игровых систем</h3>
+          <p>Задача клиента: в игре нужна механика, которая надёжно работает и не ломается при росте числа игроков.</p>
+          <ul>
+            <li>Код на Luau с понятной структурой</li>
+            <li>Настройки в отдельных файлах, чтобы их можно было менять без переписывания кода</li>
+            <li>Краткое описание, как система устроена</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <h3>Интерфейсы на React-lua</h3>
+          <p>Задача клиента: игроку нужны удобные меню, списки и окна, которые отзываются на действия.</p>
+          <ul>
+            <li>Компоненты интерфейса: списки, раскрывающиеся строки, модальные окна</li>
+            <li>Управление с клавиатуры и мыши</li>
+            <li>Исправление ошибок в уже существующих интерфейсах</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <h3>Проектирование игровых механик</h3>
+          <p>Задача клиента: есть идея игры, но неясно, из каких систем она состоит и как их связать.</p>
+          <ul>
+            <li>Разбор идеи на отдельные системы</li>
+            <li>Схема связей между системами</li>
+            <li>План, с чего начинать разработку</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div class="container">
+        <h2>Контакты</h2>
+        <p>Хотите обсудить игру или систему для неё? Напишите мне, и мы разберём задачу.</p>
+        <p class="contact-mail"><a href="mailto:hello@example.com">hello@example.com</a></p>
+
+        <form class="contact-form" action="#contacts" method="get">
+          <label for="visitor-name">Имя</label>
+          <input id="visitor-name" name="name" type="text" required>
+
+          <label for="visitor-email">Email</label>
+          <input id="visitor-email" name="email" type="email" required>
+
+          <label for="visitor-message">Сообщение</label>
+          <textarea id="visitor-message" name="message" required></textarea>
+
+          <button type="submit">Отправить</button>
+          <p class="form-note">Учебная форма. Сообщения не отправляются</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>ООО "ДимонИнтерактив", 2026</p>
+      <p><a href="#top">Наверх</a></p>
+    </div>
+  </footer>
+</body>
+</html>

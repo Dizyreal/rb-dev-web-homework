@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 432" font-family="Arial, sans-serif">
+<rect width="768" height="432" fill="#14161c"/>
+<text x="40" y="60" fill="#eceef2" font-size="26" font-weight="bold">Вкладка игроков</text>
+<text x="40" y="88" fill="#9aa0ad" font-size="16">Схема интерфейса: список и действия</text>
+<rect x="40" y="115" width="460" height="52" rx="8" fill="#1e222b" stroke="#3a4050"/>
+<circle cx="72" cy="141" r="14" fill="#4da3ff"/><text x="100" y="147" fill="#eceef2" font-size="18">Игрок 1</text>
+<rect x="40" y="177" width="460" height="130" rx="8" fill="#1e222b" stroke="#ff3b30" stroke-width="2"/>
+<circle cx="72" cy="203" r="14" fill="#7dff6a"/><text x="100" y="209" fill="#eceef2" font-size="18">Игрок 2</text>
+<rect x="60" y="237" width="120" height="44" rx="6" fill="#ff3b30"/><text x="120" y="265" fill="#ffffff" font-size="16" text-anchor="middle">Профиль</text>
+<rect x="195" y="237" width="140" height="44" rx="6" fill="#2a2f3a"/><text x="265" y="265" fill="#eceef2" font-size="16" text-anchor="middle">В друзья</text>
+<rect x="350" y="237" width="130" height="44" rx="6" fill="#2a2f3a"/><text x="415" y="265" fill="#eceef2" font-size="16" text-anchor="middle">Пригласить</text>
+<rect x="40" y="317" width="460" height="52" rx="8" fill="#1e222b" stroke="#3a4050"/>
+<circle cx="72" cy="343" r="14" fill="#ffb020"/><text x="100" y="349" fill="#eceef2" font-size="18">Игрок 3</text>
+<rect x="540" y="115" width="188" height="254" rx="10" fill="#1e222b" stroke="#3a4050"/>
+<text x="634" y="150" fill="#eceef2" font-size="17" text-anchor="middle">Окно профиля</text>
+<circle cx="634" cy="210" r="34" fill="#7dff6a"/>
+<rect x="574" y="265" width="120" height="12" rx="6" fill="#3a4050"/><rect x="584" y="290" width="100" height="12" rx="6" fill="#3a4050"/>
+<rect x="590" y="318" width="88" height="30" rx="6" fill="#ff3b30"/><text x="634" y="339" fill="#ffffff" font-size="14" text-anchor="middle">Закрыть</text>
+</svg>
